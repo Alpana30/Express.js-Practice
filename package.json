@@ -1,0 +1,29 @@
+{
+  "name": "rough-express-apps",
+  "version": "1.0.0",
+  "description": "Express apps examples",
+  "main": "server.js",
+  "dependencies": {
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-namespace": "^0.1.1",
+    "express-resource": "^1.0.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "iniparser": "^1.0.5",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "response-time": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "exxpress",
+    "jade",
+    "node"
+  ],
+  "author": "Alpana Chaphalkar",
+  "license": "ISC"
+}
