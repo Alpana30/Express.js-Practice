@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet' href='../public/css/style.css')
+  body
+    #wrapper
+      h1 #{title}
+      #content
+        p Jade is intuitive, Jade is logical. Jade makes HTML easy, Jade saves time.
+        p.highlighted Here is some highlighted text.
+        button#alert Click Me
+      footer
+        span Copyright &copy; 2013
+        a(href='/ex01/') Home
+
+    script(src='../public/js/main.js')
