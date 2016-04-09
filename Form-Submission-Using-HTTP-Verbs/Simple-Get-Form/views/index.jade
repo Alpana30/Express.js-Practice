@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='../public/css/style.css')
+  body
+    h1 #{title}
+    p Enter the name to be Search for:
+
+    form(method='get', action='/ex01/search-result')
+      label Name
+      input(type='text', name ='name', autocomplete='off')
+      input(type='hidden', name='source', value='web')
+      input(type='submit', value='Search')

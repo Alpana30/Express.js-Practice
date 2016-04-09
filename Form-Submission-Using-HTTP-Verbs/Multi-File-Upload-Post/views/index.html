@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="../public/css/style.css">
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <p>Enter your name and email address to become a member.</p>
+
+        <form method="POST" action="/ex06/signup-result" enctype="multipart/form-data">
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" class="cred">
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" name="email" class="cred">
+            </div>
+            <div>
+                <label>Files: </label>
+                <input type="file" name="files" class="cred" multiple>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>

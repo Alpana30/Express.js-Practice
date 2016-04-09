@@ -1,0 +1,14 @@
+body{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin: 5px;
+    padding: 3px;
+}
+input.cred{
+    position: absolute;
+    left: 80px;
+}
